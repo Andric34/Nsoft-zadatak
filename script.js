@@ -1,4 +1,4 @@
-module.exports = function surrounding_sum(input) {
+function surrounding_sum(input) {
 
   // Checking user input
   if (isNaN(input)) {
@@ -70,3 +70,8 @@ for (let z = 0; z < 101; z++) {
   
 } 
 */
+try {
+   module.exports = surrounding_sum;
+} catch (e) {
+  console.warn("Export is not available");
+}
