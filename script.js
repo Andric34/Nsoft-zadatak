@@ -1,4 +1,4 @@
-function surrounding_sum(input) {
+module.exports = function surrounding_sum(input) {
 
   // Checking user input
   if (isNaN(input)) {
