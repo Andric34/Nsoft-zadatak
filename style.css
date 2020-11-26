@@ -1,0 +1,42 @@
+.wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.circle {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: grey;
+  padding: 7px;
+  border-width: 3px;
+  border-style: dashed;
+  border-radius: 50%;
+  border-color: black yellow yellow black;
+  background-clip: content-box;
+  animation: my_animation 5s linear infinite;
+}
+.onclick {
+  animation: my_animation_reverse 5s linear infinite;
+}
+
+.text {
+  position: absolute;
+  color: black;
+  text-align: center;
+  line-height: 220px;
+  font-size: 30px;
+  top: 0;
+  left: 55.425px;
+}
+@keyframes my_animation {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes my_animation_reverse {
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
