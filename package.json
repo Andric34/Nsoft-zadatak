@@ -1,5 +1,5 @@
 {
-  "name": "nsoft",
+  "name": "nsoft-zadatak",
   "version": "1.0.0",
   "description": "1.Zadatak",
   "main": "script.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Andric34/Nsoft.git"
+    "url": "git+https://github.com/Andric34/Nsoft-zadatak.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Andric34/Nsoft/issues"
+    "url": "https://github.com/Andric34/Nsoft-zadatak/issues"
   },
-  "homepage": "https://github.com/Andric34/Nsoft#readme"
+  "homepage": "https://github.com/Andric34/Nsoft-zadatak#readme"
 }
